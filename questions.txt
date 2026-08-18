@@ -1,0 +1,20 @@
+SuperBolter — ASK — the 8 customer questions
+Run all eight through your own system and report what happened in RESULTS.md.
+
+Q1. I need a two-seater sofa for a small living room, scandinavian style,
+    nothing over 40,000 rupees. What do you have?
+
+Q2. Which of your dining tables seat six people?
+
+Q3. Do you have anything made of solid teak?
+
+Q4. What is the cheapest bed you sell, and what size is it?
+
+Q5. I want to do my bedroom in japandi style. Suggest me a bed, a side table
+    and a lamp that go together.
+
+Q6. Which of your chairs would work in a kitchen?
+
+Q7. Do you sell bathroom vanities?
+
+Q8. Can I get the walnut wardrobe delivered to Coimbatore by Friday?

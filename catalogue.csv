@@ -1,0 +1,42 @@
+sku,name,category,room,style,material,colour,price_inr,dimensions_cm,description
+SB-1001,Aalto Two-Seater Sofa,sofa,living,scandinavian,oak frame with wool upholstery,light grey,38900,160x82x74,Compact two-seater with a slim oak frame and tapered legs. Suits small living rooms and apartment balconies-turned-lounges.
+SB-1002,Aalto Three-Seater Sofa,sofa,living,scandinavian,oak frame with wool upholstery,light grey,54900,212x88x74,The three-seater version of the Aalto. Same slim frame; needs a wall run of at least 230 cm.
+SB-1003,Kyoto Low Sofa,sofa,living,japandi,ash frame with cotton-linen blend,oatmeal,47500,190x85x66,Low-slung seat height of 38 cm. Reads calm and grounded; pairs with low tables.
+SB-1004,Bombay Chesterfield,sofa,living,traditional_indian,mango wood with velvet,deep teal,72000,220x95x78,Deep buttoned back and rolled arms. A statement piece for a formal drawing room.
+SB-1005,Meridian Modular Sofa,sofa,living,contemporary,steel frame with performance fabric,charcoal,89000,300x160x70,L-shaped modular with a reversible chaise. Ships as three units.
+SB-1006,Corbu Leather Loveseat,sofa,living,modern,chrome frame with full-grain leather,tan,66500,150x80x70,"Two cushions, exposed chrome. Ages well; expect visible patina within a year."
+SB-2001,Nordic Extending Dining Table,dining table,dining,scandinavian,solid oak,natural oak,44900,180x90x75,"Seats six comfortably, eight with the leaf extended to 230 cm."
+SB-2002,Malabar Dining Table,dining table,dining,traditional_indian,solid teak,honey teak,58000,200x100x76,Hand-finished solid teak with a live edge. Seats six.
+SB-2003,Kyoto Round Dining Table,dining table,dining,japandi,ash veneer on engineered core,pale ash,31500,120 dia x 73,Round four-seater. The pedestal base leaves legroom clear.
+SB-2004,Slab Dining Table,dining table,dining,minimalist,powder-coated steel with sintered stone,off white,67000,220x95x75,Seats eight. Very heavy; two people needed to move it.
+SB-2005,Tiffin Bistro Table,dining table,kitchen,contemporary,powder-coated steel,matte black,12900,70x70x75,Two-seater bistro table sized for a kitchen corner or breakfast nook.
+SB-3001,Wishbone Dining Chair,chair,dining,scandinavian,solid beech with paper cord seat,natural beech,9800,55x50x76,Light enough to move one-handed. Sold singly.
+SB-3002,Kyoto Dining Chair,chair,dining,japandi,ash with woven rush seat,pale ash,11200,48x52x78,"Low back, woven seat. Works at both dining and desk height."
+SB-3003,Bentwood Cafe Chair,chair,kitchen,contemporary,steamed beech,walnut stain,6400,44x48x80,Stackable. Commonly used at kitchen counters and bistro tables.
+SB-3004,Kanthi Accent Chair,chair,living,bohemian,cane and mango wood,natural cane,18500,68x72x82,Woven cane back with a loose cushion. Reads warm against plain walls.
+SB-3005,Corbu Lounge Chair,chair,living,modern,chrome and leather,black,41000,80x85x70,Low lounge chair with a matching ottoman available separately.
+SB-3006,Counter Stool 65,chair,kitchen,minimalist,powder-coated steel with oak seat,white,7900,40x40x65,Counter-height stool. Also available at 75 cm bar height on request.
+SB-4001,Kyoto Platform Bed,bed,bedroom,japandi,solid ash,pale ash,52000,215x175x35,"Queen platform bed with an integrated floating side ledge. Low profile, no headboard."
+SB-4002,Aalto Bed,bed,bedroom,scandinavian,oak with upholstered headboard,light grey,46500,215x175x100,Queen size with a slim padded headboard.
+SB-4003,Haveli Four-Poster Bed,bed,bedroom,traditional_indian,solid sheesham,dark walnut,94000,220x185x210,King size four-poster with carved posts. Needs a ceiling height of at least 280 cm.
+SB-4004,Slab Bed,bed,bedroom,minimalist,engineered wood with matte lacquer,off white,28900,205x160x40,"Double bed, the cheapest frame we carry. Flat-packs into two cartons."
+SB-4005,Bombay Storage Bed,bed,bedroom,contemporary,engineered wood with fabric,graphite,61000,215x180x110,Queen with hydraulic under-bed storage.
+SB-5001,Kyoto Side Table,side table,bedroom,japandi,solid ash,pale ash,13400,45x40x52,Single open shelf. Height matches the Kyoto Platform Bed.
+SB-5002,Aalto Nightstand,side table,bedroom,scandinavian,oak,natural oak,15900,48x42x55,"One drawer, one open shelf."
+SB-5003,Drum Side Table,side table,living,bohemian,hammered brass,antique brass,21000,40 dia x 50,Hand-hammered brass drum. Marks easily; wipe dry.
+SB-5004,Slab Coffee Table,coffee table,living,minimalist,sintered stone on steel,off white,34000,120x60x35,"Rectangular, low. Heavy for its size."
+SB-5005,Kyoto Low Table,coffee table,living,japandi,solid ash,pale ash,26500,110x55x32,Deliberately low to sit with the Kyoto Low Sofa.
+SB-5006,Malabar Nesting Tables,coffee table,living,traditional_indian,solid teak,honey teak,29500,60x60x45 and 45x45x40,Pair of nesting tables in solid teak.
+SB-6001,Aalto Wardrobe,wardrobe,bedroom,scandinavian,oak veneer on engineered core,natural oak,72000,180x60x210,Two-door with a hanging rail and four shelves.
+SB-6002,Walnut Wardrobe,wardrobe,bedroom,modern,walnut veneer on engineered core,dark walnut,84000,220x62x220,Three-door sliding wardrobe with an internal drawer bank.
+SB-6003,Haveli Almirah,wardrobe,bedroom,traditional_indian,solid sheesham,dark walnut,110000,150x60x200,Carved two-door almirah with a full-length mirror inside.
+SB-7001,Paper Pendant Lamp,lamp,living,scandinavian,rice paper and steel,white,4200,45 dia x 45,Diffuse overhead light. Ships flat.
+SB-7002,Kyoto Floor Lamp,lamp,bedroom,japandi,ash and linen shade,oatmeal,9800,35 dia x 150,"Warm, low-glare floor lamp. Reading-height shade."
+SB-7003,Brass Task Lamp,lamp,bedroom,modern,brass and steel,antique brass,7600,20x45x55,Adjustable arm table lamp for a bedside or desk.
+SB-7004,Jaali Pendant,lamp,dining,traditional_indian,pierced brass,antique brass,16800,35 dia x 40,Pierced brass shade that throws a patterned light onto the ceiling.
+SB-8001,Kilim Rug 170x240,rug,living,bohemian,handwoven wool,rust multi,24500,170x240,Flatweave wool kilim. Reversible; no pile.
+SB-8002,Loop Rug 200x300,rug,living,minimalist,wool blend,greige,31000,200x300,Low-loop pile in a plain greige. Hides footfall well.
+SB-8003,Jute Rug 160x230,rug,dining,bohemian,natural jute,natural,11900,160x230,Hardwearing jute. Rough underfoot; usually used under a dining table.
+SB-9001,Aalto Sideboard,storage,dining,scandinavian,oak,natural oak,49000,180x45x75,Three doors and an internal drawer. Also used as a TV unit.
+SB-9002,Slab Media Unit,storage,living,minimalist,engineered wood with matte lacquer,off white,27500,180x40x45,Low media unit with cable routing at the back.
+SB-9003,Malabar Bookcase,storage,living,traditional_indian,solid teak,honey teak,42000,90x35x200,Five fixed shelves in solid teak. Very heavy once loaded.
