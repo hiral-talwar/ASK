@@ -13,18 +13,19 @@ NUM_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
              "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12}
 
 
-def detect_category(q):
+def detect_categories(q):
     q = q.lower()
+    found = []
     for cat in MULTI_WORD_CATEGORIES:
-        if cat in q:
-            return cat
+        if cat in q and cat not in found:
+            found.append(cat)
     for word, canonical in CATEGORY_SYNONYMS.items():
-        if word in q:
-            return canonical
+        if word in q and canonical and canonical not in found:
+            found.append(canonical)
     for cat in SINGLE_WORD_CATEGORIES:
-        if cat in q:
-            return cat
-    return None
+        if cat in q and cat not in found:
+            found.append(cat)
+    return found
 
 
 def detect_budget(q):
@@ -55,8 +56,8 @@ def classify(question, p):
     """Returns 'strong', 'similar', or 'irrelevant' + reasons (used internally only)."""
     q = question.lower()
 
-    category = detect_category(q)
-    if category and category not in p["category"].lower() and p["category"].lower() not in category:
+    categories = detect_categories(q)
+    if categories and not any(c in p["category"].lower() or p["category"].lower() in c for c in categories):
         return "irrelevant", []
 
     reasons = []

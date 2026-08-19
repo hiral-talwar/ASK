@@ -55,7 +55,10 @@ def ask(question, index):
 
     strong, similar = rank_products(question, raw_results)
 
-    shown = (strong + similar)[:3]
+    from match import detect_categories
+    num_categories = len(detect_categories(question))
+    cap = max(3, num_categories * 2) if num_categories > 1 else 3
+    shown = (strong + similar)[:cap]
     shown_skus = [p["sku"] for p in shown]
 
     strong_text = "\n".join(format_line(p) for p in strong[:3]) or "(none)"
