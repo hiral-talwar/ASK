@@ -4,6 +4,15 @@ from dotenv import load_dotenv
 from google import genai
 from retrieve import build_index
 from match import rank_products
+import streamlit as st
+
+def get_api_key():
+    try:
+        return st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        return os.getenv("GEMINI_API_KEY")
+
+client = genai.Client(api_key=get_api_key())
 
 load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
