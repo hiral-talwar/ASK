@@ -6,6 +6,11 @@ from retrieve import build_index
 from match import rank_products
 import streamlit as st
 
+
+
+
+load_dotenv()
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 def get_api_key():
     try:
         return st.secrets["GEMINI_API_KEY"]
@@ -13,9 +18,6 @@ def get_api_key():
         return os.getenv("GEMINI_API_KEY")
 
 client = genai.Client(api_key=get_api_key())
-
-load_dotenv()
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 PROMPT_TEMPLATE = """
 You are a shopping assistant for SuperBolter, a furniture retailer.
@@ -59,7 +61,8 @@ def format_line(p):
 
 
 def ask(question, index):
-    raw_results = index.search(question, num_results=41)
+    from match import expand_query
+    raw_results = index.search(expand_query(question), num_results=41)
     raw_skus = [r["sku"] for r in raw_results]
 
     strong, similar = rank_products(question, raw_results)
@@ -94,6 +97,10 @@ if __name__ == "__main__":
         "I need a two-seater sofa for a small living room, scandinavian style, nothing over 40,000 rupees.",
         "Do you sell bathroom vanities?",
         "Can I get the walnut wardrobe delivered to Coimbatore by Friday?",
+        "couch under 70000",
+        "What is the cheapest nightstand you sell?,"
+
+
     ]:
         print(f"\n{'='*60}\nQ: {q}")
         r = ask(q, index)

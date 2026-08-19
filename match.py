@@ -12,6 +12,16 @@ MATERIALS = ["oak", "teak", "walnut", "ash", "sheesham", "mango", "steel", "bras
 NUM_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
              "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12}
 
+def expand_query(q):
+    ql = q.lower()
+    extra = []
+    for word, canonical in CATEGORY_SYNONYMS.items():
+        if word in ql and canonical and canonical not in extra:
+            extra.append(canonical)
+    for cat in MULTI_WORD_CATEGORIES + SINGLE_WORD_CATEGORIES:
+        if cat in ql and cat not in extra:
+            extra.append(cat)
+    return f"{q} {' '.join(extra)}".strip() if extra else q
 
 def detect_categories(q):
     q = q.lower()
