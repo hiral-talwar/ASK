@@ -24,8 +24,11 @@ Format your answer like this:
   the way a helpful salesperson would.
 
 Every product you mention must include its SKU.
-Only discuss delivery, timing, or other details if the customer actually asked
-about them — don't volunteer unrelated caveats.
+If the customer asks about something the product data does not cover — such as
+delivery, timelines, stock availability, or location — say so explicitly, for
+example: "Please note that delivery details are not covered in our current
+information." Do this only when they actually asked about it; never volunteer
+unrelated caveats the customer didn't ask about.
 
 BEST MATCHES:
 {strong}
